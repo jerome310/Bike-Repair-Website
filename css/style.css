@@ -1,0 +1,532 @@
+html {
+  background-image: linear-gradient(#fc5e55, #fa4083);
+}
+
+body {
+  background-image: url(/img/image-lion-background.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  font-family: "Roboto", sans-serif;
+  font-family: "Playfair Display", serif;
+  color: white;
+  font-size: 1.125rem;
+}
+
+.container {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+
+a.mybutton {
+  font-family: "Playfair Display", serif;
+  border: 1px solid white;
+  padding: 10px 20px;
+  margin-right: 10px;
+  border-radius: 20px;
+  box-shadow: 5px 5px black;
+}
+
+main {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.main2 {
+  min-height: 300px;
+  padding-top: 50px;
+}
+
+.herobox1 {
+  flex: 2;
+}
+
+a.hero1button {
+  border: 1px solid white;
+  padding: 10px 50px;
+  background-color: white;
+  color: #fa4083;
+  border-radius: 40px 0 40px 0;
+}
+
+a.hero1button {
+  display: inline-block;
+  margin: 15px 0 15px;
+  box-shadow: 5px 5px black;
+}
+
+a.hero1button:hover {
+  background-color: #fad0c4;
+  transition: 1s;
+}
+
+.herobox1 p {
+  padding-right: 100px;
+}
+
+.herobox2 {
+  flex: 1;
+}
+
+.herobox2 img {
+  border-radius: 10px;
+}
+
+.cards {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card1 {
+  background-image: url(/img/image-background-card1.jpg);
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
+  width: 30%;
+  border-radius: 20px;
+  box-shadow: 10px 10px black;
+}
+
+.card2 {
+  background-image: url(/img/image-background-card2.jpg);
+  background-size: cover;
+  background-position: left;
+  min-height: 250px;
+  width: 30%;
+  border-radius: 20px;
+  box-shadow: 10px 10px black;
+}
+
+.card3 {
+  background-image: url(/img/image-background-card3.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 250px;
+  width: 30%;
+  border-radius: 20px;
+  box-shadow: 10px 10px black;
+}
+
+.testimonals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.tbox {
+  padding: 50px;
+  width: 37%;
+  border: 1px solid white;
+  margin: 20px 0;
+}
+
+.card1,
+.card2,
+.card3 {
+  padding: 30px 30px 20px 30px;
+  box-sizing: border-box;
+}
+
+.card1 a {
+  border: 1px solid white;
+  padding: 5px 15px;
+  background-color: white;
+  color: red;
+  border-radius: 5px;
+}
+
+.card2 a {
+  border: 1px solid white;
+  padding: 5px 15px;
+  background-color: white;
+  color: red;
+  border-radius: 5px;
+}
+
+.card3 a {
+  border: 1px solid white;
+  padding: 5px 15px;
+  background-color: white;
+  color: red;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 1.875rem;
+}
+
+p {
+  line-height: 1.75rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.cards p {
+  font-size: 0.825rem;
+  padding-bottom: 15px;
+}
+
+.cards i {
+  font-size: 100px;
+  margin-top: 20px;
+}
+
+/* Contact Page CSS */
+.inputwrapper {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px 20px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.825rem;
+  box-sizing: border-box;
+}
+
+.newline {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.margin-right-a {
+  margin-right: 30px;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+.contactbutton {
+  font-family: "Playfair Display", serif;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 0px;
+  box-shadow: 5px 5px black;
+}
+
+.contactbutton:hover {
+  background-color: #fa4083;
+  transition-duration: 1s;
+}
+
+form {
+  margin: 40px 0;
+}
+
+select {
+  font-family: "Playfair Display", serif;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 0px;
+  box-shadow: 5px 5px black;
+}
+
+select:hover {
+  background-color: #fa4083;
+  transition-duration: 1s;
+}
+
+input {
+  border-radius: 30px;
+  outline: none;
+}
+
+textarea {
+  border-radius: 30px;
+  outline: none;
+}
+
+/* About CSS Page */
+
+section {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+}
+
+section .aboutinfo h1 {
+  font-size: 50px;
+  min-height: 50px;
+  margin-top: 50px;
+}
+
+.aboutinfo p {
+  margin: 10px 0 20px 0;
+}
+
+.mob-wrapper {
+  display: none;
+}
+
+/* Desktop 1024px Version */
+@media (max-width: 1024px) {
+  header {
+    margin: 0 20px;
+  }
+
+  main {
+    margin: 0 20px;
+  }
+
+  .cards {
+    margin: 0 20px;
+  }
+
+  .testimonals {
+    margin: 30px 10px 0;
+  }
+
+  /* About Page */
+  .aboutinfo p {
+    line-height: 1.75rem;
+    padding: 0 85px;
+  }
+
+  /* Contact Page */
+  .main2 {
+    margin: 0 20px;
+  }
+}
+
+/* Tablet Version */
+@media (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  main {
+    margin: 50px 20px 10px;
+  }
+
+  .herobox1 p {
+    padding-right: 30px;
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+  }
+
+  .card1 {
+    display: none;
+  }
+
+  .card1,
+  .card2,
+  .card3 {
+    margin: 20px auto;
+  }
+
+  .card2 {
+    margin-right: 10px;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+  }
+
+  .card3 {
+    margin-left: 10px;
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+  }
+
+  .testimonals {
+    margin: 20px 10px 0;
+  }
+
+  .testimonals {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .tbox {
+    padding: 50px;
+    width: 35%;
+    border: 1px solid white;
+    margin: 20px 0px;
+  }
+
+  .aboutinfo img {
+    width: 550px;
+  }
+
+  .contactbutton {
+    margin: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    max-width: 500px;
+  }
+
+  header {
+    padding-bottom: 0px;
+    border-bottom: none;
+  }
+
+  .mybutton {
+    display: none;
+  }
+
+  .mob-wrapper {
+    display: block;
+    position: absolute;
+    margin: -25px 0px 0px -70px;
+  }
+
+  .burger-menu {
+    width: 50px;
+  }
+
+  .mob-nav {
+    display: block;
+  }
+
+  .navbutton {
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    line-height: 1.9;
+    padding: 0 15px;
+    margin: 0 -15px;
+  }
+
+  .longbar {
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+    line-height: 1.9;
+    padding: 0 7.5px;
+    margin: 0 -15px;
+  }
+
+  main {
+    display: block;
+  }
+
+  .herobox1 {
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  .herobox1 p {
+    padding-bottom: 15px;
+  }
+
+  a.hero1button {
+    border: 1px solid white;
+    padding: 10px 25px;
+    background-color: white;
+    color: #fa4083;
+    border-radius: 10px;
+    margin-right: 30px;
+  }
+
+  .herobox2 {
+    display: none;
+  }
+
+  .cards {
+    display: block;
+  }
+
+  .card1 {
+    display: block;
+    width: 100%;
+  }
+
+  .card2 {
+    display: block;
+    width: 100%;
+  }
+
+  .card3 {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .tbox {
+    padding: 50px;
+    width: 79%;
+    border: 1px solid white;
+    margin: 20px 5px;
+  }
+
+  /* About Page */
+  .aboutinfo h1 {
+    padding: 40px 0 20px;
+  }
+
+  .aboutinfo img {
+    width: 450px;
+  }
+
+  .aboutinfo p {
+    padding: 0px 30px;
+  }
+
+  /* Contact Page */
+
+  .main2 h1,
+  p {
+    text-align: center;
+  }
+
+  .contactbutton {
+    font-family: "Playfair Display", serif;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 0px;
+    box-shadow: 5px 5px black;
+    margin: 20px;
+  }
+}
+
+/* CSS for the navbar dropdwon visit later */
+/* .navbutton{
+  font-family: "Playfair Display", serif;
+  padding:10px 15px;
+  border:1px solid white;
+  display:inline-block;
+  position: relative;
+}
+
+.dropdown{
+  overflow: none;
+  position: absolute;
+}
+
+.dropdown:hover .navbutton{
+  display:block;
+ } */
